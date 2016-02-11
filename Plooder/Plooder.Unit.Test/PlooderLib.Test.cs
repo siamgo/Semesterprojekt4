@@ -7,19 +7,27 @@ using NUnit.Framework;
 
 namespace Plooder.Unit.Test
 {
-    private PlooderLibClass plooder;
-    
     [TestFixture]
     public class PlooderTest
     {
+        private PlooderLibClass _plooder;
+
+        [SetUp]
+        public void Setup()
+        {
+            _plooder = new PlooderLibClass();
+        }
+
         [Test]
         public void Add_2and2_Equals4()
         {
-            plooder = new PlooderLibClass();
-            Assert.That(plooder.Add(2,2), Is.EqualTo(4));
+            Assert.That(_plooder.Add(2,2), Is.EqualTo(4));
+        }
+
+        [Test]
+        public void Subtract_4from3_Equals1()
+        {
+            Assert.That(_plooder.Subtract(4, 3), Is.EqualTo(1));
         }
     }
-    /*
-    Making a conflict to demonstrate Git
-    */
 }
