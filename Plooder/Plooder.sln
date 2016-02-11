@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plooder", "Plooder\Plooder.csproj", "{134F607B-5FE0-4CA9-B7F8-1BFFB78BC861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plooder.Unit.Test", "Plooder.Unit.Test\Plooder.Unit.Test.csproj", "{39A222B1-B75D-4031-AED3-5283E37E85D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{134F607B-5FE0-4CA9-B7F8-1BFFB78BC861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134F607B-5FE0-4CA9-B7F8-1BFFB78BC861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134F607B-5FE0-4CA9-B7F8-1BFFB78BC861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134F607B-5FE0-4CA9-B7F8-1BFFB78BC861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A222B1-B75D-4031-AED3-5283E37E85D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A222B1-B75D-4031-AED3-5283E37E85D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A222B1-B75D-4031-AED3-5283E37E85D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A222B1-B75D-4031-AED3-5283E37E85D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
