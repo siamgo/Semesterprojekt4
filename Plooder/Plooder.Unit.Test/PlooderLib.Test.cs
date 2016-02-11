@@ -17,4 +17,7 @@ namespace Plooder.Unit.Test
             Assert.That(plooder.Add(2,2), Is.EqualTo(4));
         }
     }
+    /*
+    Making a conflict to demonstrate Git
+    */
 }
